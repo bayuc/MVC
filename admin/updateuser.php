@@ -35,7 +35,7 @@ include '../koneksi.php';
 	 }
 	else{
 		echo mysqli_error($config);
-	 	echo"<script> alert ('Data Gagal Tersimpan');
+	 	echo"<script> alert ('Data Fail To Save');
 		windows.history.go(-1);</script>";
 	}
 	if (!isset($_GET['p'])) {
